@@ -1,0 +1,97 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+#site_header{
+  background-color: #ff8523;
+  padding: 30px;
+  border-collapse: collapse;
+}
+p{
+  font-size: 20;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_navigation{
+  color: white;
+  border-radius: 10px;
+  paddng: 10px;
+  margin: 0px;
+}
+.main_navigation a{
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+
+}
+
+h2, h3{
+  color: #1fabe5;
+
+}
+thead>tr>td{
+  border-collapse: collapse;
+  background-color: #1fabe5;
+  color: white;
+  border: 5px solid "dark blue";
+  padding:10px;
+}
+
+tbody>tr>td{
+  height:10px;
+  margin: 0px;
+  border: 1px solid #1fabe5;
+  padding: 20px;
+  height: 10px;
+}
+tbody{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+form{
+  background-color: #dddddd;
+  padding:10px;
+  border-radius: 5px;
+}
+
+
+.name{
+  background-color: #ff8523;
+  border-radius: 10px;
+  padding: 15px;
+  color:white;
+}
+
+section>ul>li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+section~  section{
+  border-top: 3px solid #dddddd;
+}
+table{
+  padding-bottom: 30px;
+}
+.submit_container>input{
+  background-color: #1fabe5;
+  color: white;
+  text-transform: uppercase;
+  padding:10px;
+  border-radius: 5px;
+}
